@@ -1,0 +1,159 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>capTure.coms</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="cap_logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="story.html">Our Story</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>About Us</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Welcome to capTure</h1>     
+            <p>Substance use disorder (SUD) is a pandemic, infiltrating the very core of our society by etching 
+                deep scars on individuals, families, and societies. Only 15-20% of individuals stay abstinent one 
+                year after treatment, with relapse rates as high as 85%. Meet capTure: a revolutionary tool 
+                designed to empower individuals to embrace growth and make lasting, positive lifestyle changes. 
+                <br><br> By tapping into relative emotional triggers and brain wave patterns, our product helps users 
+                identify alarming data to prevent further substance use. capTure’s mobile app, ‘capTure.com’, 
+                seamlessly integrates advanced brain wave analysis to track and monitor users’ unique emotional 
+                and behavioral patterns, identifying early indicators of relapse. Our artificial intelligence 
+                extracts and relays critical data to healthcare professionals and loved ones while simultaneously 
+                offering personalized resources for maintaining abstinence. <br><br>To avoid social stigmatization, 
+                wireless EEG biosensors are embedded in a baseball cap to promote continuous use without individuals 
+                being defined by their condition. We employ a one-time cost for the designed cap with an additional monthly 
+                subscription accounting for the biosensor primer fluid and the in-app data processing software. capTure 
+                builds a stepping stone for victims of this pandemic, taking control of their journey and creating a 
+                healthier, more fulfilling life.
+            </p>
+</div>
+        <div class="about-col">
+            <img src="cap_logo.png">
+        </div>
+    </div>    
+</section>
+
+<section id="design-content">
+    <div class = "container">
+        <h1>Our Design</h1>
+        <div class = "row">
+        <div class="col-md-4 profile-pic text-center">
+        <div class="img-box">
+        <img src="sideview_design.png" class="img-responsive">
+        </div>
+
+        </div>
+        <div class="col-md-4 profile-pic text-center">
+            <div class="img-box">
+            <img src="topview_design.png" class= "img-responsive">
+            </div>
+            </div>
+            <div class="col-md-4 profile-pic text-center">
+                <div class="img-box">
+                <img src="frontview_design.png" class="img-responsive">
+                </div>
+                </div>
+        </div>
+</div>
+</section>
+
+<section id="brand-content">
+    <div class = "container">
+        <h1>Our Brand</h1>
+        <div class = "row">
+        <div class="col-md-6 profile-pic text-center">
+            <h2>Our Name</h2>
+            <p>
+                Our brand name, capture-hope, reflects our core mission of empowering individuals to reclaim their 
+                lives while instilling optimism for the future. The word “capture” symbolizes our ability to detect 
+                and address key triggers through cutting-edge technology, while “hope” emphasizes the belief in 
+                ecovery, resilience, and growth. Together, the name encapsulates our commitment to blending innovation 
+                with compassion, offering users a transformative journey toward sustained well-being.
+            </p>
+
+        </div>
+        <div class="col-md-6 profile-pic text-center">
+            <h2>Our Voice</h2>
+            <p>
+                We aim to convey a voice that is compassionate, empowering, and trustworthy, blending empathy with 
+                expertise. Our tone is approachable and supportive, offering users a sense of reassurance while 
+                maintaining professionalism to instill confidence in our innovative solutions. This voice reflects 
+                our commitment to being a partner in recovery—empathetic to users' challenges while inspiring hope and 
+                resilience.
+            </p>
+        </div>
+</div>
+</section>
+
+<section id="brand-content">
+    <div class = "container">
+        <div class = "row">
+        <div class="col-md-4 profile-pic text-center">
+            <h2>Our Logo</h2>
+            <p>
+                A sleek, minimalist hat icon symbolizes the discreet and wearable nature of our EEG technology while 
+                emphasizing comfort, innovation, and everyday usability.
+            </p>
+
+        </div>
+        <div class="col-md-4 profile-pic text-center">
+            <h2>Our Color Scheme</h2>
+            <p>
+                Dominated by shades of blue, our palette conveys calm, trust, and professionalism—key elements that 
+                resonate with individuals seeking support and recovery.
+            </p>
+        </div>
+        <div class="col-md-4 profile-pic text-center">
+            <h2>Our Design</h2>
+            <p>
+                Clean, modern, and user-friendly. Every aspect of our design, from the app interface to the wearable device, 
+                is crafted for simplicity and elegance, promoting ease of use and encouraging consistent engagement.
+            </p>
+        </div>
+</div>
+</section>
+    
+
+<!----------Footer----------->
+<section id="footer">
+    <div class="container text-center">
+        <p> Made With <i class="fas fa-heart"></i> by Cyra Narahari</p>    
+    </div>
+  </section>
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

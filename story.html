@@ -1,0 +1,153 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>capTure.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="cap_logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="story.html">Our Story</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Story</h1>
+    </section>
+
+
+    <!------- story content -------->
+
+    <section class="story-section">
+        <div class="row">
+            <div class="story">
+                <p>Substance use is highly normalized in our communities, particularly in
+                    youth culture and media. As high school students from Houston, Texas, and
+                    members of immigrant families, we have witnessed firsthand the dangerous
+                    consequences of substance use and seen relationships damaged by its cruelty.
+                    Inspired by professional and personal experiences, we were motivated to
+                    innovate an alternative to existing treatments for substance use disorder.
+                    Our goal is to not only revolutionize the approach to treating this condition
+                    but also collaborate with professionals to combat the stigma surrounding it.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="story">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 profile-pic text-center">
+                    <div class="img-box">
+                        <img src="imm_story-capture.jpeg" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-md-6 profile-pic text-center">
+                    <div class="img-box">
+                        <img src="story_child-capture.jpeg" class="img-responsive">
+                    </div>
+
+                </div>
+    </section>
+    <!------- vision content -------->
+
+    <section id="team-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 profile-pic text-center">
+                    <h1>Our Vision</h1>
+                    <p>
+                        To create a world where technology in substance use disorder treatment radically reduces rates of 
+                        relapse and works to destigmatize the condition.
+                    </p>
+                </div>
+                <div class="col-md-2 profile-pic text-center">
+                    <h1>Our Mission</h1>
+                    <p>
+                        To revolutionize treatment of substance use disorder through integrative technology monitoring brain 
+                        waves in a discreet way that empowers individuals with the tools needed to recover and grow positive 
+                        mindsets.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!------- values -------->
+    <section id="team-content">
+        <div class="container">
+            <h1>Our Values</h1>
+            <div class="row">
+                <div class="col-md-3 profile-pic text-center">
+                    <div class="img-box">
+                        <img src="empowerment.png" alt="Empowerment" class="img-responsive">
+                    </div>
+                    <h2>Empowerment</h2>
+                    <p>
+                        We enable individuals to take control of their recovery journey through personalized, data-driven insights.
+                    </p>
+                </div>
+                <div class="col-md-3 profile-pic text-center">
+                    <div class="img-box">
+                        <img src="resillience.png" alt="Resilience" class="img-responsive">
+                    </div>
+                    <h2>Resilience</h2>
+                    <p>
+                        We design tools to help users overcome challenges and sustain long-term recovery.
+                    </p>
+                </div>
+                <div class="col-md-3 profile-pic text-center">
+                    <div class="img-box">
+                        <img src="growth.png" alt="Growth" class="img-responsive">
+                    </div>
+                    <h2>Growth</h2>
+                    <p>
+                        Our innovation fosters continuous improvement in users’ lives and within our solutions
+                    </p>
+                </div>
+                <div class="col-md-3 profile-pic text-center">
+                    <div class="img-box">
+                        <img src="collaberation.png" alt="Collaboration" class="img-responsive">
+                    </div>
+                    <h2>Collaboration</h2>
+                    <p>
+                        Our technology bridges users, healthcare providers, and support networks for unified care.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!----------Footer----------->
+<section id="footer">
+    <div class="container text-center">
+        <p> Made With <i class="fas fa-heart"></i> by Cyra Narahari</p>    
+    </div>
+  </section>
+    <!----JavaScript for toggle menu---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
