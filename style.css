@@ -25,6 +25,8 @@
     color: white !important; /* Set title color to white */
     font-weight: 700; /* Bold text for emphasis */
     margin-bottom: 20px; /* Space below the title */
+    justify-content: center; /* Horizontally center the content */
+      align-items: center; /* Vertically center the content */
 }
 
 .header .text-box p {
@@ -32,6 +34,30 @@
     color: white !important; /* Set paragraph text color to white */
     margin: 0; /* Remove extra margin */
 }
+
+    /* Style for the youtube-link container */
+    .youtube-link {
+        display: flex; /* Enable flexbox */
+        justify-content: center; /* Center content horizontally */
+        align-items: center; /* Center content vertically */
+        padding: 20px; /* Optional padding for spacing around the image */
+        background-color: #ffffff; /* Optional background color for the container */
+        border-radius: 12px; /* Optional rounded corners for the container */
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* Optional shadow effect for container */
+      }
+  
+      /* Style for the image */
+      .youtube-link img {
+        width: 200px; /* Set a fixed width (adjust to your desired size) */
+        height: auto; /* Maintain aspect ratio of the image */
+        border-radius: 8px; /* Optional rounded corners for the image */
+        transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+      }
+  
+      /* Add hover effect on the image */
+      .youtube-link img:hover {
+        transform: scale(1.05); /* Slight zoom effect on hover */
+      }
 /*---------------navbar----------------*/
 nav{
     display: flex;
