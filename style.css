@@ -18,6 +18,8 @@
     margin-top: 50px; /* Space between the navbar and text */
 }
 
+
+
 .header .text-box h1 {
     font-size: 3.5em; /* Larger font size for prominence */
     color: white !important; /* Set title color to white */
@@ -271,6 +273,17 @@ nav .fa{
     color: red; /* Make the heart red */
     margin: 3px; /* Add some spacing */
 }
+
+.icons {
+    position: fixed; /* Fixes the icon to the viewport */
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    font-size: 24px; /* Adjust the icon size */
+    color: #E4405F; /* Instagram color */
+  }
+  .icons i:hover {
+    color: #C13584; /* Hover effect */
+  }
 /*-----------about page----------*/
 .sub-header{
     height: 50vh;
